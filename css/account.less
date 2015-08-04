@@ -1,0 +1,814 @@
+.account-container {
+  border-top: 2px solid @gray;
+  font-family: agavalanchecregular;
+}
+
+.account-content {
+  background-color: @dirty-white;
+  padding: 50px 85px;
+}
+
+.account-menu {
+  padding: 0;
+}
+
+.account-menu-item {
+  padding: 20px 38px;
+  font-size: 1.4em;
+  color: @gray;
+  border-bottom: 1px solid @gray;
+  display: block;
+
+  .icon {
+    float: right;
+  }
+
+  &.active {
+    color: @orange;
+  }
+}
+
+.account-menu-link {
+  outline: none;
+
+  &:hover {
+    text-decoration: none;
+    color: @orange;
+  }
+}
+
+.switcher-container {
+  position: relative;
+  width: 100px;
+  height: 43px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  background-color: @gray;
+  color: @white;
+  font-size: 1.43em;
+  text-transform: uppercase;
+  cursor: pointer;
+  float: left;
+
+  &.on {
+    background-color: @orange;
+
+    .switcher-text-no {
+      display: none;
+    }
+
+    .switcher-text-yes {
+      display: block;
+    }
+
+    .switcher-trigger {
+      right: 5px;
+      left: auto;
+    }
+  }
+
+  .switcher-trigger {
+    left: 5px;
+    right: auto;
+  }
+
+  .switcher-text-yes {
+    display: none;
+  }
+}
+
+.switcher-text-yes {
+  position: absolute;
+  left: 19px;
+  top: 50%;
+  margin-top: -.65em;
+}
+
+.switcher-text-no {
+  position: absolute;
+  right: 19px;
+  top: 50%;
+  margin-top: -.65em;
+}
+
+.switcher-trigger {
+  width: 30px;
+  height: 30px;
+  background-color: @white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+}
+
+.switcher-description {
+  float: left;
+  line-height: 43px;
+  margin-left: 20px;
+}
+
+.willing-to-travel-switcher-container {
+  margin-top: 15px;
+}
+
+.cancelation-policy {
+  height: 90px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.alot-inputs {
+
+  .chefxchange-input {
+    margin-bottom: 20px;
+  }
+}
+
+.checkor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.account-footer-controll {
+  margin-top: 20px;
+}
+
+.account-footer-button-container {
+  text-align: right;
+}
+
+.account-step-privacy-info {
+  padding-right: 10%;
+  color: @gray;
+  padding-top: 15px;
+}
+
+.account-container-gray {
+  margin-top: 25px;
+}
+
+.about-me-info {
+  margin-top: 40px;
+}
+
+.account-birthday {
+  background-position: 370px 0;
+}
+
+.add-language {
+  float: right;
+}
+
+.languages-container {
+  margin-top: 30px;
+}
+
+.chef-about-additional-info-section {
+  padding: 30px 0 20px 0;
+  border-bottom: 1px dashed @gray;
+
+  &.first {
+    border-top: 1px dashed @gray;
+  }
+
+  label {
+    font-size: 1.29em;
+    font-weight: bold;
+    color: @dark-gray;
+    small {
+      font-size: 70%;
+      font-weight: normal;
+    }
+  }
+}
+
+.cooking-style-area {
+  padding: 20px;
+  height: 150px;
+}
+
+.summary-cooking-style {
+  margin-top: 0;
+}
+
+.foodie-languages {
+  margin-top: 30px;
+}
+
+.not-active-gray-link {
+  color: @gray;
+}
+
+.schedule-tabs {
+  margin-top: 20px;
+}
+
+.schedule-item {
+  background-color: @white;
+  color: @black;
+  padding: 20px 30px;
+  width: 45%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow:  3px 3px 3px RGBA(0,0,0,.3);
+  -moz-box-shadow:  3px 3px 3px RGBA(0,0,0,.3);
+  box-shadow:  3px 3px 3px RGBA(0,0,0,.3);
+  margin: 0 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.schedule-datetime {
+  font-size: 1.29em;
+  font-weight: bold;
+  line-height: 34px;
+
+  .icon {
+    float: left;
+  }
+}
+
+.schedule-customer {
+  padding: 0 35px;
+  margin-top: 20px;
+
+  img {
+    float: left;
+  }
+
+  p {
+    text-align: center;
+    color: @black;
+    margin: 0;
+  }
+}
+
+.schedule-customer-name {
+  font-size: 1.7em;
+  padding-top: 25px;
+}
+
+.schedule-information {
+  margin: 25px 0;
+
+  p {
+    margin: 0;
+  }
+}
+
+.schedule-status {
+  margin-bottom: 20px;
+}
+
+.schedules-row {
+  margin-top: 40px;
+  overflow: visible;
+}
+
+.section-head {
+  position: relative;
+  color: @dark-gray;
+
+  &.on-gray-bg {
+    color: @dark-gray;
+  }
+}
+
+.add-menu-button {
+  float: right;
+  margin-top: -37px;
+}
+
+.menus-list {
+  margin-top: 50px;
+}
+
+.added-menu-item {
+  background: @white;
+}
+
+.added-menu-infomation {
+  border-top: 1px solid @dirty-white;
+  padding: 20px;
+}
+
+.added-menu-option {
+  padding-top: 5px;
+  .icon {
+    margin-right: 15px;
+    float: left;
+    margin-top: -1px;
+  }
+}
+
+.added-menu-controls {
+  position: relative;
+}
+
+.lear-cooking {
+  padding: 15px;
+  height: 115px;
+  resize: none;
+}
+
+.how-learn-cooking-section {
+
+  p {
+    margin: 0 0 10px 0;
+    font-size: 1.15em;
+  }
+}
+
+.experience-section {
+  padding: 22px 0;
+  border-bottom: 1px dashed @gray;
+  color: @dark-gray;
+
+  &.more-margin {
+    padding-top: 40px;
+  }
+}
+
+.chef-rank-changer {
+  position: relative;
+}
+
+.rank-container {
+  display: inline-block;
+  margin-top: 8px;
+  cursor: pointer;
+  .icon {
+    float: left;
+    margin-right: 5px;
+    margin-top: -8px;
+  }
+}
+
+.experience-workflow {
+  padding-top: 0;
+  border-bottom: none;
+}
+
+.experience-workflow-list {
+  padding-left: 15px;
+  margin-top: 20px;
+
+  li {
+    margin-left: 20px;
+    border-top: 1px dashed @gray;
+  }
+}
+
+.experience-workflow-item {
+  padding-top: 20px;
+  border-top: 1px dashed @gray;
+  padding-left: 42px;
+  position: relative;
+  margin-top: 20px;
+}
+
+.list-dot {
+  position: absolute;
+  left: 7px;
+  top: 42px;
+  width: 7px;
+  height: 7px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: @dark-black;
+}
+
+.post-action {
+  position: absolute;
+  right: 0;
+  top: 34px;
+
+  .icon {
+    margin-left: 15px;
+  }
+}
+
+.save-account-info {
+  width: 210px;
+  height: 50px!important;
+}
+
+.account-settings-footer-section {
+  border: none;
+}
+
+.kitchen-description-container {
+  margin-top: 30px;
+}
+
+.kitchen-equipment {
+  height: 65px;
+  display: flex;
+  align-items: center;
+
+  .icon, img {
+    margin-right: 7px;
+  }
+}
+
+.dashed-line {
+  border-style: dashed;
+  border-color: @gray;
+  margin: 0;
+}
+
+.kitchen-desc-area {
+  height: 150px;
+  resize: none;
+  padding: 20px;
+}
+
+.kitchen-photos-buttons {
+  margin: 30px 0;
+
+  > div {
+    padding: 0;
+  }
+}
+
+.coupons-section {
+  padding: 30px 0;
+}
+
+.coupons-header {
+  font-size: 1.29em;
+}
+
+.coupons-content {
+  margin-top: 15px;
+}
+
+.share-coupon {
+  margin-right: 5px;
+}
+
+.save-friends {
+  width: 90%;
+}
+
+.referral-table-head {
+  color: @gray;
+}
+
+.referral-table-content {
+  font-weight: bold;
+}
+
+.coupon-additional {
+  margin-top: 20px;
+}
+
+.chef-account-messages-list-item {
+  border-left: 10px solid @white;
+  justify-content: center;
+  border-bottom: 1px solid @dirty-white;
+  padding-right: 28px;
+
+  &:not(.first) {
+    cursor: pointer;
+  }
+
+  &.first {
+    display: block;
+    height: auto;
+    padding: 23px 0;
+  }
+
+  &.active, &:hover:not(.first) {
+    border-left-color: @orange;
+  }
+}
+
+.dialog-image {
+  float: left;
+  width: 70px;
+  margin: 12px 15px;
+
+  img {
+    width: 100%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+  }
+}
+
+.dialog-name {
+  padding-top: 25px;
+  padding-bottom: 2px;
+  font-size: 1.28em;
+}
+
+.new-message-pointer {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: @orange;
+  margin-left: 20px;
+
+  &.disabled {
+    display: none;
+  }
+}
+
+.dialog-cutted-message {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  white-space: nowrap;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: @gray;
+  font-style: oblique;
+}
+
+.date-time-of-message {
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+.cutted-name {
+  max-width: 100px;
+  display: inline-block;
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+.inbox-messages-amount {
+  width: 20px;
+  height: 20px;
+  line-height: 19px;
+  font-size: .86em;
+  background: @orange;
+  display: inline-block;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.section-container {
+  padding: 0 40px;
+
+  &.last-at-page {
+    padding-bottom: 40px;
+  }
+}
+
+.message-content-section {
+  background: @white;
+}
+
+.message-head {
+  padding: 20px 0;
+  display: inline-block;
+  text-transform: none;
+  color: @dark-black;
+}
+
+.message-pre-approve {
+  margin: 15px 0;
+}
+
+.message-time {
+  font-size: 50%;
+  color: @gray;
+  font-weight: normal;
+  font-family: agavalanchecregular;
+}
+
+.booking-message {
+  padding-bottom: 30px;
+}
+
+.messager-avatar {
+  width: 70px;
+  margin-right: 20px;
+  padding: 28px 0;
+  img {
+    width: 100%;
+  }
+}
+
+.simple-message {
+  padding-top: 7px;
+
+  .message-head {
+    padding-bottom: 10px;
+  }
+}
+
+.simple-message-content {
+  font-family: Georgia, sans-serif;
+  color: @gray;
+  font-style: oblique;
+  padding-left: 89px;
+}
+
+.acepted-event-message {
+  padding-left: 89px;
+  margin-top: 15px;
+}
+
+.type-message-container {
+  padding: 40px;
+}
+
+#search-price-slider {
+  width: 100%;
+  max-width: 150px;
+  margin-top: 8px;
+
+  &.ui-slider-horizontal {
+    border: none;
+    height: 6px;
+    background: @gray;
+  }
+
+  &.ui-widget-content {
+
+    .ui-slider-range {
+      background: @orange;
+      height: 6px;
+    }
+    .ui-slider-handle {
+      width: 18px;
+      height: 18px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      background: @white;
+      border: 2px solid @gray;
+
+      &.ui-state-active {
+        background: @orange;
+        border-color: @white;
+      }
+    }
+  }
+}
+
+.price-view {
+  display: block;
+  color: @dark-black;
+  font-weight: bold;
+  text-transform: none;
+}
+
+.search-buttons {
+  text-transform: none;
+  font-size: 1.14em;
+  width: 136px;
+  min-width: unset;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 10px;
+
+  &:first-of-type {
+    margin-top: -10px;
+  }
+}
+
+.language-section {
+  width: 87%;
+  float: left;
+
+  .transformSelect {
+    margin-bottom: 0;
+  }
+}
+
+.remove-select-section {
+  width: 58px;;
+  float: right;
+  height: 58px;
+  border: 2px solid @gray;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.language-item {
+  margin-bottom: 10px;
+}
+
+.experience-currently-hold {
+  margin-bottom: 40px;
+
+  img {
+    float: left;
+    margin-top: 2px;
+  }
+}
+
+.add-experience-container {
+  margin-top: 30px;
+}
+
+.new-experience-header {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.new-experience-form {
+  padding: 20px;
+  border: 1px dashed @gray;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.new-experience-footer > * {
+  margin-right: 20px;
+}
+
+.menu-tooltip-container {
+  position: absolute;
+  top: 90%;
+  padding: 10px 20px;
+  color: @black;
+  font-size: 1em;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  left: -21%;
+  display: none;
+  background: @yellow;
+  font-weight: bold;
+  height: 2.7em;
+  transition: left .5s;
+  width: 150px;
+
+  &:after {
+    width: 0;
+    height: 0;
+    display: block;
+    content: '';
+    border: 5px solid transparent;
+    border-bottom-color: @yellow;
+    bottom: 100%;
+    margin-top: -5px;
+    right: 20%;
+    position: absolute;
+  }
+}
+
+.image-menu-container {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.menu-inputs-margin-bottom {
+  margin-bottom: 10px;
+}
+
+.normal-case {
+  text-transform: none;
+}
+
+.add-menu-section-header {
+  font-size: 1.29em;
+  font-weight: bold;
+  line-height: 55px;
+}
+
+.add-cources-item {
+  margin-top: 10px;
+
+  label {
+    margin-bottom: 10px;
+    font-weight: normal;
+  }
+}
+
+.pricesssss {
+  font-size: 12px;
+  display: block;
+}

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ChefXChange Home</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+    <link rel="stylesheet" href="js/slick/slick.css">
+    <link rel="stylesheet" href="js/slick/slick-theme.css">
+
+    <link rel="stylesheet/less" type="text/css" href="css/global.less">
+
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+    <script type="text/javascript" src="css/bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/jquery.fancyform/fancyform.js"></script>
+    <script type="text/javascript" src="js/slick/slick.js"></script>
+    <script type="text/javascript" src="js/less.js"></script>
+
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="container-fluid">
+            <header class="header">
+                <div class="row">
+                    <div class="col-sm-12 col-md-3 col-lg-4">
+                        <a href="/" class="logo">
+                            <img src="img/logo.png" alt="ChefXChange">
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-9 col-lg-8">
+                        <nav class="header-menu">
+                            <a href="#" class="header-menu-link a-bold">About Us</a>
+                            <a href="#" class="header-menu-link a-bold">FAQ</a>
+                            <a href="#" class="header-menu-link a-bold">Search</a>
+                            <a href="#" class="header-menu-link a-bold">Invite Friends</a>
+                            <a href="#" class="header-menu-link a-bold">Gift Cards</a>
+                            <a href="#" class="header-menu-link a-bold false-link" data-toggle="modal" data-target="#login_modal"><span>Login</span></a>
+                            <a href="#" class="header-menu-link a-bold false-link" data-toggle="modal" data-target="#sign_up"><span>Sign up</span></a>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <section class="home-header-image">
+                <div class="home-header-image-title a-bold">
+                    A private chef bringing the<br>
+                    world to your plate
+                </div>
+                <div class="home-header-image-description">
+                    Use ChefXChange to find local chefs to cook for you, at home.
+                </div>
+                <div class="header-search-container">
+                    <div class="header-search-input-block cuisine">
+                        <select name="#" class="fancySelect">
+                            <option value="123" selected>Choose cuisine</option>
+                            <option value="123">Artem Lebedev</option>
+                        </select>
+                    </div>
+                    <div class="header-search-input-block location">
+                        <select name="#" class="fancySelect">
+                            <option value="123" selected>Choose cuisine</option>
+                            <option value="123">Artem Lebedev</option>
+                        </select>
+                    </div>
+                    <div class="header-search-input-block date">
+                        <input type="text" class="datepicker header-search-input" value="Date">
+                    </div>
+                    <div class="" style="display: inline-block;">
+                        <button class="btn btn-orange a-bold home-chef-search"><span>Find Your Chef</span></button><br>
+                        <div class="find-chef-by-name-link-container">or <a href="#">Search chef by name</a></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="featured-home-chefs">
+                <h2 class="featured-home-chefs-title a-bold">Featured Chefs</h2>
+
+                <div class="row">
+                    <div class="col-lg-offset-1 col-lg-3 col-sm-offset-1 col-sm-5 col-md-offset-2 col-md-4">
+                        <div class="featured-chef-item">
+                            <div class="featured-chef-head-image">
+                                <img src="images/chef-header-img-1.jpg" alt="">
+                                <div class="featured-chef-photo">
+                                    <img src="images/chef-photo-1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="featured-chef-information">
+                                <div class="cf">
+                                    <div class="featured-chef-rank">
+                                        <span class="icon chef-rank professional"></span>
+                                    </div>
+                                    <div class="featured-chef-rating">
+                                        <span class="icon star active"></span>
+                                        <span class="icon star active"></span>
+                                        <span class="icon star active"></span>
+                                        <span class="icon star active"></span>
+                                        <span class="icon star"></span>
+                                    </div>
+                                </div>
+
+                                <div class="featured-chef-name a-bold">Chef Emily</div>
+                                <div class="featured-chef-reviews-amount a-regular">4 reviews</div>
+                                <div class="featured-chef-remark">Caters to make any event special</div>
+                                <div class="featured-chef-cuisines">
+                                    <div class="title a-regular">Cuisines:</div>
+                                    <div class="cuisines-list a-bold">Asian, European, Greek, Italian</div>
+                                </div>
+                                <div class="align-center">
+                                    <div class="featured-chef-price-per-person">from 40 EUR per person</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-offset-1 col-lg-3 col-sm-offset-1 col-sm-5 col-md-offset-2 col-md-4">
+                        <div class="featured-chef-item">
+                            <div class="featured-chef-head-image">
+                                <img src="images/chef-header-img-2.jpg" alt="">
+                                <div class="featured-chef-photo">
+                                    <img src="images/chef-photo-2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="featured-chef-information">
+                                <div class="cf">
+                                    <div class="featured-chef-rank">
+                                        <span class="icon chef-rank professional"></span>
+                                    </div>
+                                    <div class="featured-chef-rating">
+                                        <span class="icon star active"></span>
+                                        <span class="icon star active"></span>
+                                        <span class="icon star"></span>
+                                        <span class="icon star"></span>
+                                        <span class="icon star"></span>
+                                    </div>
+                                </div>
+
+                                <div class="featured-chef-name a-bold">Chef Paolo</div>
+                                <div class="featured-chef-reviews-amount a-regular">1 review</div>
+                                <div class="featured-chef-remark"></div>
+                                <div class="featured-chef-cuisines">
+                                    <div class="title a-regular">Cuisines:</div>
+                                    <div class="cuisines-list a-bold">Greek, Italian</div>
+                                </div>
+                                <div class="align-center">
+                                    <div class="featured-chef-price-per-person">from 5 EUR per person</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-offset-1 col-lg-3 col-sm-offset-1 col-sm-5 col-md-offset-2 col-md-4">
+                        <div class="featured-chef-item">
+                            <div class="featured-chef-head-image">
+                                <img src="images/chef-header-img-3.jpg" alt="">
+                                <div class="featured-chef-photo">
+                                    <img src="images/chef-photo-3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="featured-chef-information">
+                                <div class="cf">
+                                    <div class="featured-chef-rank">
+                                        <span class="icon chef-rank novice"></span>
+                                    </div>
+                                    <div class="featured-chef-rating">
+                                        <span class="icon star active"></span>
+                                        <span class="icon star"></span>
+                                        <span class="icon star"></span>
+                                        <span class="icon star"></span>
+                                        <span class="icon star"></span>
+                                    </div>
+                                </div>
+
+                                <div class="featured-chef-name a-bold">Chef Mike</div>
+                                <div class="featured-chef-reviews-amount a-regular"></div>
+                                <div class="featured-chef-remark">"Fresh is best!"</div>
+                                <div class="featured-chef-cuisines">
+                                    <div class="title a-regular">Cuisines:</div>
+                                    <div class="cuisines-list a-bold">Asian, European, Greek, Italian, European, Greek, Italian</div>
+                                </div>
+                                <div class="align-center">
+                                    <div class="featured-chef-price-per-person">from 40 EUR per person</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <section class="featured-home-chefs">
+                <h2 class="featured-home-chefs-title a-bold">Suggestions</h2>
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="suggestion-item">
+                            <div class="suggestion-item-image">
+                                <img src="images/suggestion-img-1.jpg" alt="">
+                            </div>
+                            <div class="suggestion-info">
+                                <div class="title a-bold">Dubai</div>
+                                <div class="suggestion-description">
+                                    Meet our Dubai Chefs who are looking forward to delivering an exclusive culinary experience in the comfort of your home.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="suggestion-item">
+                            <div class="suggestion-item-image">
+                                <img src="images/suggestion-img-2.jpg" alt="">
+                            </div>
+                            <div class="suggestion-info">
+                                <div class="title a-bold">Viva Italia</div>
+                                <div class="suggestion-description">
+                                    Meet our Italian Chefs in Dubai.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="suggestion-item">
+                            <div class="suggestion-item-image">
+                                <img src="images/suggestion-img-3.jpg" alt="">
+                            </div>
+                            <div class="suggestion-info">
+                                <div class="title a-bold">Restaurant Chefs</div>
+                                <div class="suggestion-description">
+                                    Chefs from the best restaurants in Dubai available to cook for you and your friends.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="suggestion-item">
+                            <div class="suggestion-item-image">
+                                <img src="images/suggestion-img-4.jpg" alt="">
+                            </div>
+                            <div class="suggestion-info">
+                                <div class="title a-bold">London</div>
+                                <div class="suggestion-description">
+                                    Meet our Dubai Chefs who are looking forward to delivering an exclusive culinary experience in the comfort of your home.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="how-it-works-video">
+                <img src="images/video.jpg" alt="">
+            </section>
+
+            <section class="home-news">
+                <h2 class="featured-home-chefs-title a-bold">Featured news</h2>
+                <div class="slick-home-slider">
+                    <div class="slick-home-item">
+                        <img src="images/slick-item-1.jpg" alt="">
+                    </div>
+                    <div class="slick-home-item">
+                        <img src="images/slick-item-2.jpg" alt="">
+                    </div>
+                    <div class="slick-home-item">
+                        <img src="images/slick-item-3.jpg" alt="">
+                    </div>
+                    <div class="slick-home-item">
+                        <img src="images/slick-item-4.jpg" alt="">
+                    </div>
+                    <div class="slick-home-item">
+                        <img src="images/slick-item-5.jpg" alt="">
+                    </div>
+                    <div class="slick-home-item">
+                        <img src="images/slick-item-6.jpg" alt="">
+                    </div>
+                    <div class="slick-home-item">
+                        <img src="images/slick-item-3.jpg" alt="">
+                    </div>
+                    <div class="slick-home-item">
+                        <img src="images/slick-item-4.jpg" alt="">
+                    </div>
+                    <div class="slick-home-item">
+                        <img src="images/slick-item-5.jpg" alt="">
+                    </div>
+                    <div class="slick-home-item">
+                        <img src="images/slick-item-6.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="row footer-top-line">
+                    <div class="col-lg-4 col-md-4 col-sm-6 chefxchange-copyrights">
+                        <a href="/" class="a-regular">© 2015 ChefXChange</a>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-6">
+                        <nav class="footer-menu a-bold">
+                            <a href="#" class="footer-menu-item">About us</a>
+                            <a href="#" class="footer-menu-item">FAQ</a>
+                            <a href="#" class="footer-menu-item">Search</a>
+                            <a href="#" class="footer-menu-item">Contact us</a>
+                            <a href="#" class="footer-menu-item">Terms&Privacy</a>
+                            <a href="#" class="footer-menu-item">Invite Friend</a>
+                            <a href="#" class="footer-menu-item">Gift Cards</a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="row align-center a-bold">
+                    <div class="col-lg-12 col-md-12 col-sm-12 join-us-footer-text">
+                        Join Us
+                    </div>
+                </div>
+                <div class="row align-center">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <a href="" class="footer-join-icon facebook"></a>
+                        <a href="" class="footer-join-icon twitter"></a>
+                        <a href="" class="footer-join-icon instagramm"></a>
+                        <a href="" class="footer-join-icon picaso"></a>
+                        <a href="" class="footer-join-icon google-plus"></a>
+                        <a href="" class="footer-join-icon linkedin"></a>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+    </div>
+
+    <div class="modal fade" id="sign_up" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <a href="#" class="glyphicon glyphicon-remove close-modal" data-dismiss="modal"></a>
+                    <div class="custom-modal-header">Sign In & Get Going</div>
+                    <div class="custom-modal-content">
+                        <div class="inputs-container more-inputs">
+                            <input type="text" class="chefxchange-input inputs-seria" placeholder="Email">
+                            <input type="text" class="chefxchange-input no-margin-bottom" placeholder="Password">
+                        </div>
+                        <p class="forget-link"><a href="#">Forget your password ?</a></p>
+                        <p class="remember-me">
+                            <input type="checkbox" class="fancyCheckbox"> Remember me
+                        </p>
+
+                        <button class="btn btn-orange large login-button">Sign In</button>
+
+                        <p>Don't have an account ? <a href="#">Register Now</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

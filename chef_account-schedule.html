@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ChefXChange About</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+    <link rel="stylesheet" href="js/slick/slick.css">
+    <link rel="stylesheet" href="js/slick/slick-theme.css">
+
+    <link rel="stylesheet/less" type="text/css" href="css/global.less">
+
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+    <script type="text/javascript" src="js/jquery.fancyform/fancyform.js"></script>
+    <script type="text/javascript" src="css/bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/slick/slick.js"></script>
+    <script type="text/javascript" src="js/less.js"></script>
+
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/account.js"></script>
+</head>
+<body>
+<div id="wrapper">
+    <div class="container-fluid">
+        <header class="header">
+            <div class="row">
+                <div class="col-sm-12 col-md-3 col-lg-4">
+                    <a href="/" class="logo">
+                        <img src="img/logo.png" alt="ChefXChange">
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-9 col-lg-8">
+                    <nav class="header-menu">
+                        <a href="#" class="header-menu-link a-bold">About Us</a>
+                        <a href="#" class="header-menu-link a-bold">FAQ</a>
+                        <a href="#" class="header-menu-link a-bold">Search</a>
+                        <a href="#" class="header-menu-link a-bold">Invite Friends</a>
+                        <a href="#" class="header-menu-link a-bold">Gift Cards</a>
+                        <a href="#" class="header-menu-link a-bold false-link"><span>Login</span></a>
+                        <a href="#" class="header-menu-link a-bold false-link"><span>Sign up</span></a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <section class="account-container row">
+            <div class="account-menu col-lg-3 col-md-3 col-sm-12">
+                <ul class="account-menu-list">
+                    <li class="account-menu-item">
+                        <a href="#" class="account-menu-link">
+                            View Profile
+                            <span class="icon menu-profile"></span>
+                        </a>
+                    </li>
+                    <li class="account-menu-item">
+                        <a href="#" class="account-menu-link">
+                            Schedule
+                            <span class="icon menu-schedule"></span>
+                        </a>
+                    </li>
+                    <li class="account-menu-item">
+                        <a href="#" class="account-menu-link">
+                            About Me
+                            <span class="icon menu-about"></span>
+                        </a>
+                    </li>
+                    <li class="account-menu-item">
+                        <a href="#" class="account-menu-link">
+                            Experience
+                            <span class="icon menu-experience"></span>
+                        </a>
+                    </li>
+                    <li class="account-menu-item">
+                        <a href="#" class="account-menu-link">
+                            Menus
+                            <span class="icon menu-menus"></span>
+                        </a>
+                    </li>
+                    <li class="account-menu-item active">
+                        <a href="#" class="account-menu-link">
+                            Settings
+                            <span class="icon menu-settings"></span>
+                        </a>
+                    </li>
+                    <li class="account-menu-item">
+                        <a href="#" class="account-menu-link">
+                            Log out
+                            <span class="icon menu-log-out"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="account-content col-lg-9 col-md-9 col-sm-12">
+                <div class="account-container-gray">
+                    <div id="schedule-datepicker"></div>
+                </div>
+                <div class="account-container-gray">
+
+                    <ul class="faq-tab-links not-active-gray-link">
+                        <li class="active"><a href="#all_bookings" data-toggle="tab">All bookings</a></li>
+                        <li><a href="#pending_bookings" data-toggle="tab">Pending Bookings</a></li>
+                    </ul>
+
+                    <div class="tabs-container tab-content schedule-tabs">
+                        <div id="all_bookings" class="active tab-pane">
+                            <div class="row schedules-row">
+                                <div class="schedule-item col-lg-6 col-md-6 col-sm-12">
+                                    <div class="schedule-datetime cf">
+                                        <icon class="icon schedule-canceled"></icon>
+                                        Sun, Jun 27 2015 at 14:30
+                                    </div>
+                                    <div class="schedule-customer cf">
+                                        <img src="img/no-customer-avatar.png" alt="">
+                                        <p class="schedule-customer-name">Karl</p>
+                                        <p class="schedule-customer-time">5 hours ago</p>
+                                    </div>
+                                    <div class="schedule-information">
+                                        <p>menu: <b>Creole Vibrations</b></p>
+                                        <p>people: <b>6</b></p>
+                                        <p>price: <b>240 USD</b></p>
+                                    </div>
+                                    <div class="schedule-status">
+                                        <span class="btn btn-schedule-status accepted">Accepted By Chef</span>
+                                    </div>
+                                </div>
+                                <div class="schedule-item col-lg-6 col-md-6 col-sm-12">
+
+                                    <div class="schedule-datetime cf">
+                                        <icon class="icon schedule-pending"></icon>
+                                        Sun, Jun 27 2015 at 14:30
+                                    </div>
+                                    <div class="schedule-customer cf">
+                                        <img src="img/no-customer-avatar.png" alt="">
+                                        <p class="schedule-customer-name">Elena</p>
+                                        <p class="schedule-customer-time">5 hours ago</p>
+                                    </div>
+                                    <div class="schedule-information">
+                                        <p>menu: <b>Creole Vibrations</b></p>
+                                        <p>people: <b>12</b></p>
+                                        <p>price: <b>240 USD</b></p>
+                                    </div>
+                                    <div class="schedule-status">
+                                        <span class="btn btn-schedule-status pending-approval">Pending Approval</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row schedules-row">
+                                <div class="schedule-item col-lg-6 col-md-6 col-sm-12">
+                                    <div class="schedule-datetime cf">
+                                        <icon class="icon schedule-pending"></icon>
+                                        Sun, Jun 27 2015 at 14:30
+                                    </div>
+                                    <div class="schedule-customer cf">
+                                        <img src="img/no-customer-avatar.png" alt="">
+                                        <p class="schedule-customer-name">Sam</p>
+                                        <p class="schedule-customer-time">5 hours ago</p>
+                                    </div>
+                                    <div class="schedule-information">
+                                        <p>menu: <b>Creole Vibrations</b></p>
+                                        <p>people: <b>6</b></p>
+                                        <p>price: <b>240 USD</b></p>
+                                    </div>
+                                    <div class="schedule-status">
+                                        <span class="btn btn-schedule-status pending-approval">Pending Approval</span>
+                                    </div>
+                                </div>
+                                <div class="schedule-item col-lg-6 col-md-6 col-sm-12">
+
+                                    <div class="schedule-datetime cf">
+                                        <icon class="icon schedule-booking-accepted"></icon>
+                                        Sun, Jun 27 2015 at 14:30
+                                    </div>
+                                    <div class="schedule-customer cf">
+                                        <img src="img/no-customer-avatar.png" alt="">
+                                        <p class="schedule-customer-name">Alex</p>
+                                        <p class="schedule-customer-time">5 hours ago</p>
+                                    </div>
+                                    <div class="schedule-information">
+                                        <p>menu: <b>Creole Vibrations</b></p>
+                                        <p>people: <b>12</b></p>
+                                        <p>price: <b>240 USD</b></p>
+                                    </div>
+                                    <div class="schedule-status">
+                                        <span class="btn btn-schedule-status canceled">Canceled</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row schedules-row">
+                                <div class="schedule-item col-lg-6 col-md-6 col-sm-12">
+                                    <div class="schedule-datetime cf">
+                                        <icon class="icon schedule-booking-accepted"></icon>
+                                        Sun, Jun 27 2015 at 14:30
+                                    </div>
+                                    <div class="schedule-customer cf">
+                                        <img src="img/no-customer-avatar.png" alt="">
+                                        <p class="schedule-customer-name">Liza</p>
+                                        <p class="schedule-customer-time">5 hours ago</p>
+                                    </div>
+                                    <div class="schedule-information">
+                                        <p>menu: <b>Creole Vibrations</b></p>
+                                        <p>people: <b>6</b></p>
+                                        <p>price: <b>240 USD</b></p>
+                                    </div>
+                                    <div class="schedule-status">
+                                        <span class="btn btn-schedule-status past-event">Accepted By Chef</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="pending_bookings" class="tab-pane">
+
+                            <div class="row schedules-row">
+                                <div class="schedule-item col-lg-6 col-md-6 col-sm-12">
+                                    <div class="schedule-datetime cf">
+                                        <icon class="icon schedule-canceled"></icon>
+                                        Sun, Jun 27 2015 at 14:30
+                                    </div>
+                                    <div class="schedule-customer cf">
+                                        <img src="img/no-customer-avatar.png" alt="">
+                                        <p class="schedule-customer-name">Karl</p>
+                                        <p class="schedule-customer-time">5 hours ago</p>
+                                    </div>
+                                    <div class="schedule-information">
+                                        <p>menu: <b>Creole Vibrations</b></p>
+                                        <p>people: <b>6</b></p>
+                                        <p>price: <b>240 USD</b></p>
+                                    </div>
+                                    <div class="schedule-status">
+                                        <span class="btn btn-schedule-status accepted">Accepted By Chef</span>
+                                    </div>
+                                </div>
+                                <div class="schedule-item col-lg-6 col-md-6 col-sm-12">
+
+                                    <div class="schedule-datetime cf">
+                                        <icon class="icon schedule-pending"></icon>
+                                        Sun, Jun 27 2015 at 14:30
+                                    </div>
+                                    <div class="schedule-customer cf">
+                                        <img src="img/no-customer-avatar.png" alt="">
+                                        <p class="schedule-customer-name">Elena</p>
+                                        <p class="schedule-customer-time">5 hours ago</p>
+                                    </div>
+                                    <div class="schedule-information">
+                                        <p>menu: <b>Creole Vibrations</b></p>
+                                        <p>people: <b>12</b></p>
+                                        <p>price: <b>240 USD</b></p>
+                                    </div>
+                                    <div class="schedule-status">
+                                        <span class="btn btn-schedule-status pending-approval">Pending Approval</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row schedules-row">
+                                <div class="schedule-item col-lg-6 col-md-6 col-sm-12">
+                                    <div class="schedule-datetime cf">
+                                        <icon class="icon schedule-pending"></icon>
+                                        Sun, Jun 27 2015 at 14:30
+                                    </div>
+                                    <div class="schedule-customer cf">
+                                        <img src="img/no-customer-avatar.png" alt="">
+                                        <p class="schedule-customer-name">Sam</p>
+                                        <p class="schedule-customer-time">5 hours ago</p>
+                                    </div>
+                                    <div class="schedule-information">
+                                        <p>menu: <b>Creole Vibrations</b></p>
+                                        <p>people: <b>6</b></p>
+                                        <p>price: <b>240 USD</b></p>
+                                    </div>
+                                    <div class="schedule-status">
+                                        <span class="btn btn-schedule-status pending-approval">Pending Approval</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="row footer-top-line">
+                <div class="col-lg-4 col-md-4 col-sm-6 chefxchange-copyrights">
+                    <a href="/" class="a-regular">© 2015 ChefXChange</a>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-6">
+                    <nav class="footer-menu a-bold">
+                        <a href="#" class="footer-menu-item">About us</a>
+                        <a href="#" class="footer-menu-item">FAQ</a>
+                        <a href="#" class="footer-menu-item">Search</a>
+                        <a href="#" class="footer-menu-item">Contact us</a>
+                        <a href="#" class="footer-menu-item">Terms&Privacy</a>
+                        <a href="#" class="footer-menu-item">Invite Friend</a>
+                        <a href="#" class="footer-menu-item">Gift Cards</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="row align-center a-bold">
+                <div class="col-lg-12 col-md-12 col-sm-12 join-us-footer-text">
+                    Join Us
+                </div>
+            </div>
+            <div class="row align-center">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <a href="" class="footer-join-icon facebook"></a>
+                    <a href="" class="footer-join-icon twitter"></a>
+                    <a href="" class="footer-join-icon instagramm"></a>
+                    <a href="" class="footer-join-icon picaso"></a>
+                    <a href="" class="footer-join-icon google-plus"></a>
+                    <a href="" class="footer-join-icon linkedin"></a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</div>
+
+
+<div class="modal fade" id="schedule_pending" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <a href="#" class="glyphicon glyphicon-remove close-modal" data-dismiss="modal"></a>
+                <div class="custom-modal-header no-padding with-icon"><span class="icon pending-approval-at-modal"></span> Pending Approval</div>
+                <div class="row">
+                    <div class="col-xs-6 text-center">
+                        <div class="approval-consumers cf">
+                            <div class="col-xs-6">
+                                <div class="approval-image">
+                                    <img src="img/no-avatar.png" alt="">
+                                </div>
+                                <div class="approval-status">Chef</div>
+                                <div class="approval-name">Dadisy</div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div class="approval-image">
+                                    <img src="img/no-avatar.png" alt="">
+                                </div>
+                                <div class="approval-status">Host</div>
+                                <div class="approval-name">Carl</div>
+                            </div>
+                        </div>
+
+                        <div class="chef-modal-par-head">
+                            Chef Cancelation Policy
+                        </div>
+                        <div class="chef-modal-par-simple">
+                            Full refound one week prior to event, except fees.
+                        </div>
+
+                        <div class="chef-modal-par-head">Host Comment</div>
+                        <div class="chef-modal-par-simple italic georgia">
+                            Lorem ipsum dolor sit amet desterbio demomd on week. Lorem ipsum dolor sit amet desterbio demomd on week. Lorem ipsum dolor sit amet desterbio demomd on week. Lorem ipsum dolor
+                        </div>
+
+                    </div>
+                    <div class="col-xs-6">
+                        <div class="chef-modal-par-head">Menu selected</div>
+                        <div class="chef-modal-par-simple bold">Creaole vibrations</div>
+                        <div class="chef-modal-par-head">Booking request date</div>
+                        <div class="chef-modal-par-simple bold">Fri, Jun 05 2015</div>
+                        <div class="chef-modal-par-head">Event date</div>
+                        <div class="chef-modal-par-simple bold">Thu, Jul 06 2015</div>
+                        <div class="chef-modal-par-head">Address for event</div>
+                        <div class="chef-modal-par-simple bold">Kiyv, Honchara, 6, 021523</div>
+                        <div class="chef-modal-par-head">Events time</div>
+                        <div class="chef-modal-par-simple bold">12:00 PM</div>
+                        <div class="chef-modal-par-head">People</div>
+                        <div class="chef-modal-par-simple bold">6</div>
+                        <div class="row">
+                            <div class="col-xs-6 text-left">
+                                <div class="chef-modal-par-head">Agree price</div>
+                                <div class="chef-modal-par-simple bold">USD 23</div>
+                            </div>
+                            <div class="col-xs-6 text-left">
+                                <div class="chef-modal-par-head">Agree price</div>
+                                <div class="chef-modal-par-simple bold">USD 23</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="custom-modal-footer">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <a href="#" class="btn btn-orange pre-approve">Pre-Approve/Decline</a>
+                        </div>
+                        <div class="col-xs-6">
+                            <a href="#" class="btn btn-white pre-approve">Let's discuss more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="modal fade" id="past_booking" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <a href="#" class="glyphicon glyphicon-remove close-modal" data-dismiss="modal"></a>
+                <div class="custom-modal-header no-padding with-icon"><span class="icon pending-approval-at-modal"></span> Past Booking</div>
+                <div class="row">
+                    <div class="col-xs-6 text-center">
+                        <div class="approval-consumers cf">
+                            <div class="col-xs-6">
+                                <div class="approval-image">
+                                    <img src="img/no-avatar.png" alt="">
+                                </div>
+                                <div class="approval-status">Chef</div>
+                                <div class="approval-name">Dadisy</div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div class="approval-image">
+                                    <img src="img/no-avatar.png" alt="">
+                                </div>
+                                <div class="approval-status">Host</div>
+                                <div class="approval-name">Carl</div>
+                            </div>
+                        </div>
+
+                        <div class="chef-modal-par-head">
+                            Chef Cancelation Policy
+                        </div>
+                        <div class="chef-modal-par-simple">
+                            Full refound one week prior to event, except fees.
+                        </div>
+
+                        <div class="chef-modal-par-head">Host Comment</div>
+                        <div class="chef-modal-par-simple italic georgia">
+                            Lorem ipsum dolor sit amet desterbio demomd on week. Lorem ipsum dolor sit amet desterbio demomd on week. Lorem ipsum dolor sit amet desterbio demomd on week. Lorem ipsum dolor
+                        </div>
+
+                    </div>
+                    <div class="col-xs-6">
+                        <div class="chef-modal-par-head">Menu selected</div>
+                        <div class="chef-modal-par-simple bold">Creaole vibrations</div>
+                        <div class="chef-modal-par-head">Booking request date</div>
+                        <div class="chef-modal-par-simple bold">Fri, Jun 05 2015</div>
+                        <div class="chef-modal-par-head">Event date</div>
+                        <div class="chef-modal-par-simple bold">Thu, Jul 06 2015</div>
+                        <div class="chef-modal-par-head">Address for event</div>
+                        <div class="chef-modal-par-simple bold">Kiyv, Honchara, 6, 021523</div>
+                        <div class="chef-modal-par-head">Events time</div>
+                        <div class="chef-modal-par-simple bold">12:00 PM</div>
+                        <div class="chef-modal-par-head">People</div>
+                        <div class="chef-modal-par-simple bold">6</div>
+                        <div class="row">
+                            <div class="col-xs-6 text-left">
+                                <div class="chef-modal-par-head">Agree price</div>
+                                <div class="chef-modal-par-simple bold">USD 23</div>
+                            </div>
+                            <div class="col-xs-6 text-left">
+                                <div class="chef-modal-par-head">Agree price</div>
+                                <div class="chef-modal-par-simple bold">USD 23</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="custom-modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="pre_approve-1" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <a href="#" class="glyphicon glyphicon-remove close-modal" data-dismiss="modal"></a>
+                <div class="custom-modal-header no-padding with-icon"><span class="icon pending-approval-at-modal"></span> Pre-Approve</div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div class="pre-approve-consumer row">
+                            <div class="col-xs-3">
+                                <img src="img/no-avatar.png" alt="" class="pre-approve-image">
+                            </div>
+                            <div class="col-xs-9">
+                                <div class="approval-status">Host</div>
+                                <div class="approval-name">Carl</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6">
+                        <div class="pre-approve-consumer row">
+                            <div class="col-xs-9">
+                                <div class="approval-status">menu</div>
+                                <div class="approval-name">Creole Violence</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div class="chef-modal-par-head">Booking request date</div>
+                        <div class="chef-modal-par-simple bold">Thu, Jul 06 2015</div>
+                        <div class="chef-modal-par-head">Address of event</div>
+                        <div class="chef-modal-par-simple bold">Kiyv, Honchara, 6, 012345</div>
+                        <div class="chef-modal-par-head">People</div>
+                        <div class="chef-modal-par-simple bold">
+                            <input type="text" class="chefxchange-input no-margin-bottom pre-approved-input" placeholder='"12"'>
+                        </div>
+                        <div class="chef-modal-par-head">Price</div>
+                        <div class="chef-modal-par-simple bold">USD 23 <small>If tou wish to ammend the price, please, click on a "Make new price offer" below</small> </div>
+                    </div>
+                    <div class="col-xs-6">
+                        <div class="chef-modal-par-head">Events date</div>
+                        <div class="chef-modal-par-simple bold">Thu, Jul 06 2015</div>
+                        <div class="chef-modal-par-head">Event time</div>
+                        <div class="chef-modal-par-simple bold">Kiyv, Honchara, 6, 012345</div>
+                        <div class="chef-modal-par-head">Duration</div>
+                        <div class="chef-modal-par-simple bold">
+                            <input type="text" class="chefxchange-input no-margin-bottom pre-approved-input" placeholder='3'> hr
+                        </div>
+                        <div class="chef-modal-par-head">Total payout</div>
+                        <div class="chef-modal-par-simple bold">USD 20 <small>Includes a 15% Chef service fee</small> </div>
+                    </div>
+                </div>
+                <ul class="pre-approve-tabs cf" role="tablist">
+                    <li class="active"><a href="#pre_approve_tab" data-toggle="tab"><span class="glyphicon glyphicon-ok"></span> Pre-approve</a></li>
+                    <li class="text-center"><a href="#new_price"data-toggle="tab"><span class="glyphicon glyphicon glyphicon-usd"></span> New price offer</a></li>
+                    <li class="text-right"><a href="#bussy" data-toggle="tab" class="smaller-padding"><span class="glyphicon glyphicon-remove"></span> Sorry, I'm unavailable</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active cf" id="pre_approve_tab">
+
+                        <textarea class="chefxchange-input simple-textarea no-margin-bottom" placeholder="Optional message"></textarea>
+                    </div>
+                    <div class="tab-pane cf" id="new_price">
+                        <div class="row new-price-offer-row">
+                            <div class="col-xs-8">
+                                <div class="new-price-offer-head">Offer price</div>
+                                <div class="new-price-offer-desc">Price includes the Chef's time(labor and clean up), ingredient cost and tip</div>
+                            </div>
+                            <div class="col-xs-4">
+                                <input type="text" class="chefxchange-input no-margin-bottom" placeholder="12">
+                            </div>
+                        </div>
+                        <textarea class="chefxchange-input simple-textarea no-margin-bottom" placeholder="Optional message"></textarea>
+                    </div>
+                    <div class="tab-pane fade cf" id="bussy">
+                        <div class="row">
+                            <div class="col-xs-12 bussy-radio-container">
+                                <input type="radio" name="sameName" checked="checked" class="fancyRadio">
+                                <div class="new-price-offer-head">The date is not available</div>
+                                <div class="new-price-offer-desc">Block this date on my calendar. Your celendar will be marked as unavailable Thu, Jun 18 2015 and you won't receive further inquiries for this specific data/time.<br>
+                                Propose a different Date and Time.</div>
+                            </div>
+                            <div class="col-xs-12 bussy-radio-container">
+                                <input type="radio" name="sameName" class="fancyRadio">
+                                <div class="new-price-offer-head">I am unavailable for other reason.</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <input type="text" class="chefxchange-input with-bg calendar-left datepicker inputs-seria" placeholder="Choose date">
+                            </div>
+                            <div class="col-xs-6">
+                                <input type="text" class="chefxchange-input with-bg clock inputs-seria" placeholder="Time">
+                            </div>
+
+                        </div>
+                        <textarea class="chefxchange-input simple-textarea no-margin-bottom" placeholder="Optional message"></textarea>
+                    </div>
+                </div>
+                <div class="custom-modal-footer">
+                    <div class="row">
+                        <div class="cos-xs-12">
+                            <button class="btn btn-orange full-width large">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="accepted_by_chef" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <a href="#" class="glyphicon glyphicon-remove close-modal" data-dismiss="modal"></a>
+                <div class="custom-modal-header no-padding with-icon color-orange"><span class="icon chef-rank expert"></span> Accepted by Chef</div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div class="pre-approve-consumer row">
+                            <div class="col-xs-3">
+                                <img src="img/no-avatar.png" alt="" class="pre-approve-image">
+                            </div>
+                            <div class="col-xs-9">
+                                <div class="approval-status">Host</div>
+                                <div class="approval-name">Carl</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6">
+                        <div class="pre-approve-consumer row">
+                            <div class="col-xs-9">
+                                <div class="approval-status">menu</div>
+                                <div class="approval-name">Creole Violence</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div class="chef-modal-par-head">Booking request date</div>
+                        <div class="chef-modal-par-simple bold">Thu, Jul 06 2015</div>
+                        <div class="chef-modal-par-head">Address of event</div>
+                        <div class="chef-modal-par-simple bold">Kiyv, Honchara, 6, 012345</div>
+                        <div class="chef-modal-par-head">People</div>
+                        <div class="chef-modal-par-simple bold">
+                            <input type="text" class="chefxchange-input no-margin-bottom pre-approved-input" placeholder='"12"'>
+                        </div>
+                        <div class="chef-modal-par-head">Price</div>
+                        <div class="chef-modal-par-simple bold">USD 23 <small>If tou wish to ammend the price, please, click on a "Make new price offer" below</small> </div>
+                    </div>
+                    <div class="col-xs-6">
+                        <div class="chef-modal-par-head">Events date</div>
+                        <div class="chef-modal-par-simple bold">Thu, Jul 06 2015</div>
+                        <div class="chef-modal-par-head">Event time</div>
+                        <div class="chef-modal-par-simple bold">Kiyv, Honchara, 6, 012345</div>
+                        <div class="chef-modal-par-head">Duration</div>
+                        <div class="chef-modal-par-simple bold">
+                            <input type="text" class="chefxchange-input no-margin-bottom pre-approved-input" placeholder='3'> hr
+                        </div>
+                        <div class="chef-modal-par-head">Total payout</div>
+                        <div class="chef-modal-par-simple bold">USD 20 <small>Includes a 15% Chef service fee</small> </div>
+                    </div>
+                </div>
+                <div class="custom-modal-footer">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <a href="#" class="btn btn-orange pre-approve">Pre-Approve/Decline</a>
+                        </div>
+                        <div class="col-xs-6">
+                            <a href="#" class="btn btn-white pre-approve">Let's discuss more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

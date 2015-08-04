@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'agavalanchecregular';
+    src: url('agavalanchec-webfont.eot');
+    src: url('agavalanchec-webfont.eot?#iefix') format('embedded-opentype'),
+         url('agavalanchec-webfont.woff2') format('woff2'),
+         url('agavalanchec-webfont.woff') format('woff'),
+         url('agavalanchec-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'agavalanchecbold';
+    src: url('agavalanchec-bold-webfont.eot');
+    src: url('agavalanchec-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('agavalanchec-bold-webfont.woff2') format('woff2'),
+         url('agavalanchec-bold-webfont.woff') format('woff'),
+         url('agavalanchec-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'agavalanchecbold_italic';
+    src: url('agavalanchec-bolditalic-webfont.eot');
+    src: url('agavalanchec-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('agavalanchec-bolditalic-webfont.woff2') format('woff2'),
+         url('agavalanchec-bolditalic-webfont.woff') format('woff'),
+         url('agavalanchec-bolditalic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'agavalanchecitalic';
+    src: url('agavalanchec-italic-webfont.eot');
+    src: url('agavalanchec-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('agavalanchec-italic-webfont.woff2') format('woff2'),
+         url('agavalanchec-italic-webfont.woff') format('woff'),
+         url('agavalanchec-italic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ChefXChange About</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+    <link rel="stylesheet" href="js/slick/slick.css">
+    <link rel="stylesheet" href="js/slick/slick-theme.css">
+
+    <link rel="stylesheet/less" type="text/css" href="css/global.less">
+
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+    <script type="text/javascript" src="js/jquery.fancyform/fancyform.js"></script>
+    <script type="text/javascript" src="css/bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/slick/slick.js"></script>
+    <script type="text/javascript" src="js/less.js"></script>
+
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/account.js"></script>
+</head>
+<body>
+<div id="wrapper">
+    <div class="container-fluid">
+        <header class="header">
+            <div class="row">
+                <div class="col-sm-12 col-md-3 col-lg-4">
+                    <a href="/" class="logo">
+                        <img src="img/logo.png" alt="ChefXChange">
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-9 col-lg-8">
+                    <nav class="header-menu">
+                        <a href="#" class="header-menu-link a-bold">About Us</a>
+                        <a href="#" class="header-menu-link a-bold">FAQ</a>
+                        <a href="#" class="header-menu-link a-bold">Search</a>
+                        <a href="#" class="header-menu-link a-bold">Invite Friends</a>
+                        <a href="#" class="header-menu-link a-bold">Gift Cards</a>
+                        <a href="#" class="header-menu-link a-bold false-link"><span>Login</span></a>
+                        <a href="#" class="header-menu-link a-bold false-link"><span>Sign up</span></a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <section class="account-container row">
+            <div class="account-menu col-lg-3 col-md-3 col-sm-12">
+                <ul class="account-menu-list">
+                    <li class="account-menu-item">
+                        <a href="#" class="account-menu-link">
+                            View Profile
+                            <span class="icon menu-profile"></span>
+                        </a>
+                    </li>
+                    <li class="account-menu-item">
+                        <a href="#" class="account-menu-link">
+                            Schedule
+                            <span class="icon menu-schedule"></span>
+                        </a>
+                    </li>
+                    <li class="account-menu-item">
+                        <a href="#" class="account-menu-link">
+                            About Me
+                            <span class="icon menu-about"></span>
+                        </a>
+                    </li>
+                    <li class="account-menu-item">
+                        <a href="#" class="account-menu-link">
+                            Experience
+                            <span class="icon menu-experience"></span>
+                        </a>
+                    </li>
+                    <li class="account-menu-item">
+                        <a href="#" class="account-menu-link">
+                            Menus
+                            <span class="icon menu-menus"></span>
+                        </a>
+                    </li>
+                    <li class="account-menu-item active">
+                        <a href="#" class="account-menu-link">
+                            Settings
+                            <span class="icon menu-settings"></span>
+                        </a>
+                    </li>
+                    <li class="account-menu-item">
+                        <a href="#" class="account-menu-link">
+                            Log out
+                            <span class="icon menu-log-out"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="account-content col-lg-9 col-md-9 col-sm-12">
+                <div class="account-content-section">
+                    <div class="section-head">Experience</div>
+                    <div class="experience-section">
+                        <div class="how-learn-cooking-section">
+                            <p>How did you learn how to cook? IE parents, grandma, tell us your cooking story</p>
+                            <div class="cf">
+                                <textarea cols="30" rows="10" class="chefxchange-input lear-cooking" placeholder="Your message here"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="experience-section">
+                        <div class="exp-ranking row">
+                            <div class="col-lg-3 col-md-3 col-sm-6">
+                                <div class="fixer" style="padding: 9px 0;">
+                                    Ranking:
+                                </div>
+                            </div>
+                            <div class="chef-rank-changer text-center col-lg-3 col-md-3 col-sm-6" data-value="1">
+                                <div class="rank-container">
+                                    <span class="icon novice chef-rank"></span>  Amatour
+                                </div>
+                            </div>
+                            <div class="chef-rank-changer text-center col-lg-3 col-md-3 col-sm-6" data-value="2">
+                                <div class="rank-container">
+                                    <span class="icon professional gray chef-rank"></span> Apprentice
+                                </div>
+                            </div>
+                            <div class="chef-rank-changer text-right col-lg-3 col-md-3 col-sm-6" data-value="3">
+                                <div class="rank-container">
+                                    <span class="icon chef-rank gray expert"></span> Professional
+                                </div>
+                            </div>
+                        </div>
+                        <input type="hidden" id="chef-rank-input">
+                    </div>
+
+                    <div class="experience-section">
+
+                        <div class="chef-about-additional-info-section experience-workflow">
+                            <div class="cf">
+                                <label>Training</label>
+                                <a href="#" class="btn btn-white add-language add-experience-button">Add Training</a>
+
+                                <div class="cf add-experience-container hidden">
+                                    <form action="" class="" method="POST">
+                                        <div class="new-experience-header">New Training</div>
+                                        <div class="new-experience-form">
+                                            <div class="inputs-container" style="margin-top: 5px;">
+                                                <span class="error-text-container">error text</span>
+                                                <input type="text" class="chefxchange-input inputs-seria companyName error-controll" name="training_name[]" placeholder="Company name">
+                                                <input type="text" class="chefxchange-input inputs-seria positionHeld" name="training_held[]" placeholder="Position held">
+                                                <label>Start date</label>
+                                                <div class="row row-for-selects">
+                                                    <div class="col-lg-6 col-md-6 col-sm-12 start-month">
+                                                        <span class="error-text-container">error text</span>
+                                                        <select name="s_month[]" class="fancySelect error-controll">
+                                                            <option value="Jan">January</option>
+                                                            <option value="Fab">Fabruarry</option>
+                                                            <option value="Mar">March</option>
+                                                            <option value="Apr">April</option>
+                                                            <option value="May">May</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-sm-12 start-year">
+                                                        <select name="s_year[]" class="fancySelect">
+                                                            <option value="1950">1950</option>
+                                                            <option value="1951">1951</option>
+                                                            <option value="1952">1952</option>
+                                                            <option value="1953">1953</option>
+                                                            <option value="1954">1954</option>
+                                                            <option value="1955">1955</option>
+                                                            <option value="1956">1956</option>
+                                                            <option value="1957">1957</option>
+                                                            <option value="1958">1958</option>
+                                                            <option value="1959">1959</option>
+                                                            <option value="1960">1960</option>
+                                                            <option value="1950">1950</option>
+                                                            <option value="1951">1951</option>
+                                                            <option value="1952">1952</option>
+                                                            <option value="1953">1953</option>
+                                                            <option value="1954">1954</option>
+                                                            <option value="1955">1955</option>
+                                                            <option value="1956">1956</option>
+                                                            <option value="1957">1957</option>
+                                                            <option value="1958">1958</option>
+                                                            <option value="1959">1959</option>
+                                                            <option value="1960">1960</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <label>End date</label>
+                                                <div class="row row-for-selects">
+                                                    <div class="col-lg-6 col-md-6 col-sm-12 end-month">
+                                                        <select name="e_month[]" class="fancySelect">
+                                                            <option value="January">January</option>
+                                                            <option value="Fabruarry">Fabruarry</option>
+                                                            <option value="March">March</option>
+                                                            <option value="April">April</option>
+                                                            <option value="May">May</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-sm-12 end-year">
+                                                        <select name="e_year[]" class="fancySelect">
+                                                            <option value="1950">1950</option>
+                                                            <option value="1951">1951</option>
+                                                            <option value="1952">1952</option>
+                                                            <option value="1953">1953</option>
+                                                            <option value="1954">1954</option>
+                                                            <option value="1955">1955</option>
+                                                            <option value="1956">1956</option>
+                                                            <option value="1957">1957</option>
+                                                            <option value="1958">1958</option>
+                                                            <option value="1959">1959</option>
+                                                            <option value="1960">1960</option>
+                                                            <option value="1950">1950</option>
+                                                            <option value="1951">1951</option>
+                                                            <option value="1952">1952</option>
+                                                            <option value="1953">1953</option>
+                                                            <option value="1954">1954</option>
+                                                            <option value="1955">1955</option>
+                                                            <option value="1956">1956</option>
+                                                            <option value="1957">1957</option>
+                                                            <option value="1958">1958</option>
+                                                            <option value="1959">1959</option>
+                                                            <option value="1960">1960</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="cf experience-currently-hold">
+                                                    <input type="checkbox" name="training_hold_position[]" class="fancyCheckbox" checked="checked"> I currently hold this position
+                                                </div>
+                                                <div class="new-experience-textarea-container">
+                                                    <textarea type="text" name="training_description" class="chefxchange-input simple-textarea experienceDescription" placeholder="brief description about your training"></textarea>
+                                                </div>
+                                                <div class="new-experience-footer text-right">
+                                                    <a href="#" class="inline-block dissmiss-new-experience">Cancel</a>
+                                                    <button class="btn btn-orange save-experience-button save-new-experience">Save</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="experience-workflow-container">
+                                <div class="experience-workflow-item prototype hidden">
+                                    <div class="post-action">
+                                        <a href="#" class="icon pencil edit-workflow"></a>
+                                        <a href="#" class="icon recycle-bin edit-workflow"></a>
+                                    </div>
+                                    <div class="list-dot"></div>
+                                    <p class="bigger"><strong class="experience_name">Lag culinary University Argentina</strong><br>
+                                        <small><span class="position_held">Post Graduate</span> <i class="experience_date">(Aug 2008 - Aug 2009)</i></small></p>
+                                    <p class="experience_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget malesuada eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                                </div>
+                                <div class="experience-workflow-item">
+                                    <div class="post-action">
+                                        <a href="#" class="icon pencil edit-workflow"></a>
+                                        <a href="#" class="icon recycle-bin edit-workflow"></a>
+                                    </div>
+                                    <div class="list-dot"></div>
+                                    <p class="bigger"><strong class="experience_name">Lag culinary University Argentina</strong><br>
+                                        <small><span class="position_held">Post Graduate</span> <i class="experience_date">(Aug 2008 - Aug 2009)</i></small></p>
+                                    <p class="experience_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget malesuada eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="experience-section more-margin">
+
+                        <div class="chef-about-additional-info-section experience-workflow">
+                            <div class="cf">
+                                <label>Work History</label>
+                                <a href="#" class="btn btn-white add-language add-experience-button">Add Job</a>
+
+                                <div class="cf add-experience-container hidden">
+                                    <form action="" class="" method="POST">
+                                        <div class="new-experience-header">Add Job</div>
+                                        <div class="new-experience-form">
+                                            <div class="inputs-container" style="margin-top: 5px;">
+                                                <span class="error-text-container">error text</span>
+                                                <input type="text" class="chefxchange-input inputs-seria companyName error-controll" name="training_name[]" placeholder="Company name">
+                                                <input type="text" class="chefxchange-input inputs-seria positionHeld" name="training_held[]" placeholder="Position held">
+                                                <label>Start date</label>
+                                                <div class="row row-for-selects">
+                                                    <div class="col-lg-6 col-md-6 col-sm-12 start-month">
+                                                        <span class="error-text-container">error text</span>
+                                                        <select name="s_month[]" class="fancySelect error-controll">
+                                                            <option value="Jan">January</option>
+                                                            <option value="Fab">Fabruarry</option>
+                                                            <option value="Mar">March</option>
+                                                            <option value="Apr">April</option>
+                                                            <option value="May">May</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-sm-12 start-year">
+                                                        <select name="s_year[]" class="fancySelect">
+                                                            <option value="1950">1950</option>
+                                                            <option value="1951">1951</option>
+                                                            <option value="1952">1952</option>
+                                                            <option value="1953">1953</option>
+                                                            <option value="1954">1954</option>
+                                                            <option value="1955">1955</option>
+                                                            <option value="1956">1956</option>
+                                                            <option value="1957">1957</option>
+                                                            <option value="1958">1958</option>
+                                                            <option value="1959">1959</option>
+                                                            <option value="1960">1960</option>
+                                                            <option value="1950">1950</option>
+                                                            <option value="1951">1951</option>
+                                                            <option value="1952">1952</option>
+                                                            <option value="1953">1953</option>
+                                                            <option value="1954">1954</option>
+                                                            <option value="1955">1955</option>
+                                                            <option value="1956">1956</option>
+                                                            <option value="1957">1957</option>
+                                                            <option value="1958">1958</option>
+                                                            <option value="1959">1959</option>
+                                                            <option value="1960">1960</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <label>End date</label>
+                                                <div class="row row-for-selects">
+                                                    <div class="col-lg-6 col-md-6 col-sm-12 end-month">
+                                                        <select name="e_month[]" class="fancySelect">
+                                                            <option value="January">January</option>
+                                                            <option value="Fabruarry">Fabruarry</option>
+                                                            <option value="March">March</option>
+                                                            <option value="April">April</option>
+                                                            <option value="May">May</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-sm-12 end-year">
+                                                        <select name="e_year[]" class="fancySelect">
+                                                            <option value="1950">1950</option>
+                                                            <option value="1951">1951</option>
+                                                            <option value="1952">1952</option>
+                                                            <option value="1953">1953</option>
+                                                            <option value="1954">1954</option>
+                                                            <option value="1955">1955</option>
+                                                            <option value="1956">1956</option>
+                                                            <option value="1957">1957</option>
+                                                            <option value="1958">1958</option>
+                                                            <option value="1959">1959</option>
+                                                            <option value="1960">1960</option>
+                                                            <option value="1950">1950</option>
+                                                            <option value="1951">1951</option>
+                                                            <option value="1952">1952</option>
+                                                            <option value="1953">1953</option>
+                                                            <option value="1954">1954</option>
+                                                            <option value="1955">1955</option>
+                                                            <option value="1956">1956</option>
+                                                            <option value="1957">1957</option>
+                                                            <option value="1958">1958</option>
+                                                            <option value="1959">1959</option>
+                                                            <option value="1960">1960</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="cf experience-currently-hold">
+                                                    <input type="checkbox" name="training_hold_position[]" class="fancyCheckbox" checked="checked"> I currently hold this position
+                                                </div>
+                                                <div class="new-experience-textarea-container">
+                                                    <textarea type="text" name="training_description" class="chefxchange-input simple-textarea experienceDescription" placeholder="brief description about your training"></textarea>
+                                                </div>
+                                                <div class="new-experience-footer text-right">
+                                                    <a href="#" class="inline-block dissmiss-new-experience">Cancel</a>
+                                                    <button class="btn btn-orange save-experience-button save-new-experience">Save</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="experience-workflow-container">
+
+                                <div class="experience-workflow-item">
+                                    <div class="post-action">
+                                        <a href="#" class="icon pencil edit-workflow"></a>
+                                        <a href="#" class="icon recycle-bin edit-workflow"></a>
+                                    </div>
+                                    <div class="list-dot"></div>
+                                    <p class="bigger"><strong>Lag culinary University Argentina</strong><br>
+                                        <small>Post Graduate <i>(Aug 2008 - Aug 2009)</i></small></p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget malesuada eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                                </div>
+                                <div class="experience-workflow-item">
+                                    <div class="post-action">
+                                        <a href="#" class="icon pencil edit-workflow"></a>
+                                        <a href="#" class="icon recycle-bin edit-workflow"></a>
+                                    </div>
+                                    <div class="list-dot"></div>
+                                    <p class="bigger"><strong>Lag culinary University Argentina</strong><br>
+                                        <small>Post Graduate <i>(Aug 2008 - Aug 2009)</i></small></p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget malesuada eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="experience-section row account-settings-footer-section">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            When you click on Next all changes will be automatically saved
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 text-right">
+                            <button class="btn btn-gray save-account-info large">Next</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="row footer-top-line">
+                <div class="col-lg-4 col-md-4 col-sm-6 chefxchange-copyrights">
+                    <a href="/" class="a-regular">© 2015 ChefXChange</a>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-6">
+                    <nav class="footer-menu a-bold">
+                        <a href="#" class="footer-menu-item">About us</a>
+                        <a href="#" class="footer-menu-item">FAQ</a>
+                        <a href="#" class="footer-menu-item">Search</a>
+                        <a href="#" class="footer-menu-item">Contact us</a>
+                        <a href="#" class="footer-menu-item">Terms&Privacy</a>
+                        <a href="#" class="footer-menu-item">Invite Friend</a>
+                        <a href="#" class="footer-menu-item">Gift Cards</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="row align-center a-bold">
+                <div class="col-lg-12 col-md-12 col-sm-12 join-us-footer-text">
+                    Join Us
+                </div>
+            </div>
+            <div class="row align-center">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <a href="" class="footer-join-icon facebook"></a>
+                    <a href="" class="footer-join-icon twitter"></a>
+                    <a href="" class="footer-join-icon instagramm"></a>
+                    <a href="" class="footer-join-icon picaso"></a>
+                    <a href="" class="footer-join-icon google-plus"></a>
+                    <a href="" class="footer-join-icon linkedin"></a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</div>
+</body>
+</html>
