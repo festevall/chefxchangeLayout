@@ -5,6 +5,26 @@ $(document).ready(function() {
 
     $('.add-cource-at-menu').on('click', menu.addCoursecTrigger);
 
+    $('.account-content-section').on('click', '.image-menu-container', function(e) {
+        e.preventDefault();
+        $(this).parent().find('.chef-menu-file-input').trigger('click');
+    });
+
+    $('.account-content-section').on('change', '.chef-menu-file-input', function(e) {
+        var availableType = ['image/jpeg', 'image/jpg', 'image/png'];
+        var file = e.target.files[0],
+            self = $(this);
+
+        if(file) {
+            var reader = new FileReader();
+            reader.onload = function() {
+                self.parent().find('.replaced-image').attr('src', reader.result)
+            }
+            reader.readAsDataURL(file);
+        }
+
+    });
+
     menu.dishesRotator();
 });
 

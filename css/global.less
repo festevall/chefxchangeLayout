@@ -71,8 +71,13 @@ h2 {
 
 @import "icons";
 
+#wrapper {
+  width: 100%;
+}
+
 .container-fluid {
   max-width: 1260px;
+  margin: 0 auto;
 }
 
 .header {
@@ -460,11 +465,11 @@ h2 {
 .chefxchange-copyrights {
   font-size: 1.43em;
   text-align: center;
+  padding-left: 20px;
 }
 
 .footer-top-line {
   color: @white;
-  margin: 0 20px;
   padding-bottom: 45px;
   border-bottom: 1px solid @gray;
 
@@ -475,6 +480,7 @@ h2 {
 
 .footer-menu {
   padding-top: 5px;
+  padding-right: 20px;
   text-align: right;
 
   a:hover {
@@ -538,6 +544,10 @@ h2 {
   -webkit-background-size: cover;
   background-size: cover;
   position: relative;
+
+  img {
+
+  }
 
   .static-page-title {
     position: absolute;
@@ -1553,3 +1563,19 @@ i, em {
 .color-orange {
   color: @orange;
 }
+
+@media all and (max-width: 1024px) {
+  @import "global1024.less";
+}
+
+@media all and (max-width: 768px) {
+  @import "global768.less";
+  .container-fluid {
+    width: 768px;
+  }
+}
+
+@media all and (max-width: 414px) {
+  @import "global414.less";
+}
+

@@ -20,6 +20,16 @@ $(document).ready(function() {
     $('.dissmiss-new-experience').on('click', account.hideAddExperienceContainer);
     $('.experience-workflow-container').on('click', '.edit-workflow', account.editExperience);
 
+    $('.bussy-radio-container').on('click', function() {
+        var showDatepicker = $(this).data('show_datepicker');
+        console.log(showDatepicker);
+        if(showDatepicker) {
+            $('.bussy-datepicker-container').show().find('.chefxchange-input').removeAttr('disabled');
+        } else {
+            $('.bussy-datepicker-container').hide().find('.chefxchange-input').attr('disabled', 'disabled');
+        }
+    });
+
     $('.added-menu-controls').on('mouseover', '.icon', function() {
         var tooltip = $(this).closest('.added-menu-controls').find('.menu-tooltip-container'),
             tooltipText = $(this).data('tooltip_text'),

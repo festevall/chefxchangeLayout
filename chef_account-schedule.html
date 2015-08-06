@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>ChefXChange About</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
 
     <link rel="stylesheet" href="js/slick/slick.css">
@@ -552,18 +553,18 @@
                     </div>
                     <div class="tab-pane fade cf" id="bussy">
                         <div class="row">
-                            <div class="col-xs-12 bussy-radio-container">
+                            <div class="col-xs-12 bussy-radio-container" data-show_datepicker="true">
                                 <input type="radio" name="sameName" checked="checked" class="fancyRadio">
                                 <div class="new-price-offer-head">The date is not available</div>
                                 <div class="new-price-offer-desc">Block this date on my calendar. Your celendar will be marked as unavailable Thu, Jun 18 2015 and you won't receive further inquiries for this specific data/time.<br>
                                 Propose a different Date and Time.</div>
                             </div>
-                            <div class="col-xs-12 bussy-radio-container">
+                            <div class="col-xs-12 bussy-radio-container" data-show_datepicker="false">
                                 <input type="radio" name="sameName" class="fancyRadio">
                                 <div class="new-price-offer-head">I am unavailable for other reason.</div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row bussy-datepicker-container">
                             <div class="col-xs-6">
                                 <input type="text" class="chefxchange-input with-bg calendar-left datepicker inputs-seria" placeholder="Choose date">
                             </div>
